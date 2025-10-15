@@ -4,10 +4,10 @@ plugins {
 
 android {
     namespace 'com.joc.ffmpeg'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
-        minSdk 34
+        minSdk 21
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
