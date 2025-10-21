@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.joc.ffmpeg'
-    compileSdk 35
+    compileSdk 34
 
     defaultConfig {
         minSdk 21
@@ -27,11 +27,11 @@ android {
 
 dependencies {
 
-//    implementation libs.appcompat
-//    implementation libs.material
-//    testImplementation libs.junit
-//    androidTestImplementation libs.ext.junit
-//    androidTestImplementation libs.espresso.core
-//
+    implementation libs.appcompat
+    implementation libs.material
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+
 //    implementation 'junit:junit:4.12'
 }
